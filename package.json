@@ -1,0 +1,29 @@
+{
+  "name": "test2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": " nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Horbach-Ivan/test2.git"
+  },
+  "keywords": [
+    "second",
+    "task"
+  ],
+  "author": "Ivan Horbach",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Horbach-Ivan/test2/issues"
+  },
+  "homepage": "https://github.com/Horbach-Ivan/test2#readme",
+  "dependencies": {
+    "antd": "^4.22.4",
+    "axios": "^0.27.2",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}
