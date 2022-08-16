@@ -31,15 +31,13 @@ fs.writeFile('users.json', data, (err)=> {
     if (err) throw err;
     
 });
-fs.readFile('users.json', (err, data) => {
+let userFromJSON = fs.readFile('users.json', (err, data) => {
     if (err) throw err;
-    let ivan = JSON.parse(data)
-    console.log(ivan);
 })
 class PeopleServices{
     getPeople(){
         return new Promise ((res, rej)=> {
-            res(users)
+            res(JSON.parse(userFromJSON))
         });
     }
 
