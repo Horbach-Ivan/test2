@@ -1,7 +1,7 @@
 const MessageServices = require('../../services/message/message.services')
 class MessageController {
     async getMessage() {
-        let message = await MessageServices.getMessage()
+        let message = await MessageServices.getMessageWhenAuthorized()
         return message
     }
 }
